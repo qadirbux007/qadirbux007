@@ -58,13 +58,17 @@
 
 ---
 
-### 🔷 Project 3 — ELK Stack Log Analysis & Threat Detection
-> **Tools:** Elasticsearch, Logstash, Kibana, DNS & HTTP Logs
+### 🔷 Project 3 — Network Traffic Analysis & Malware PCAP Investigation
+> **Tools:** Wireshark, DHCP Analysis, Kerberos, MITRE ATT&CK
 
-- Deployed ELK Stack for centralized log management and security visualization
-- Analyzed DNS and HTTP logs to detect anomalies and suspicious activities
-- Built Kibana dashboards for real-time security event monitoring
-- 🔜 *Repository coming soon*
+- Captured and analyzed live network traffic using Wireshark with professional SOC filters
+- Investigated a real-world malware PCAP containing **NetSupport Manager RAT** C2 traffic
+- Identified infected host by analyzing DHCP, Kerberos, and Ethernet frame data
+- Mapped findings to MITRE ATT&CK: `T1071.001` `T1219` `T1573.002`
+- Wrote a complete professional SOC Incident Report with containment recommendations
+
+📂 [View Project Repository](https://github.com/qadirbux007/Network-Traffic-Analysis-Wireshark)
+
 
 ---
 
